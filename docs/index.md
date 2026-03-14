@@ -75,6 +75,14 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 - Contributed to game development and event organization for the **Intelligent Agent Competition**.  
 - Led the development of the **Intelligent Agent-Based Game 'Generals'** in the 28th Tsinghua University Intelligent Agent Competition.
 
+##### **Volunteer Tutor at Tsinghua Q&A Workshop**
+
+📅 *September 2025 - Present*  
+📍 Tsinghua University ,[Center for Student Learning and Development](https://learning.tsinghua.edu.cn/zxgk/ywjs.htm) 
+
+- Provided tutoring for **programming and computer science courses**, including **C/C++ programming**, **data structures**, and **algorithms**.  
+- Assisted students with **debugging, algorithm design, and understanding core programming concepts** during regular tutoring sessions.
+  
 
 ##### **Tutor at Tsinghua University Science and Engineering Summer Camp**  
 
@@ -91,10 +99,12 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ## ▪️**Skills**
 
-| **Languages**        | Chinese, English, Spanish (Basic Proficiency) |  
-|----------------------|----------------------------------------------|  
-| **Programming**       | C/C++, Python, Javascript/Typescript, Verilog/SystemVerilog, Java |  
-| **Tools**             | Git, Linux, Docker, PyTorch, CUDA, Markdown, LaTeX |  
+| **Languages**              | Chinese (Native), English (Fluent), Spanish (Basic) |
+|----------------------------|-----------------------------------------------------|
+| **Programming Languages**  | C/C++, Python, JavaScript/TypeScript, Java, Rust |
+| **Graphics / Game Dev**    | OpenGL, GLSL, Unity |
+| **AI / ML**                | PyTorch, CUDA |
+| **Tools**                  | Git, Linux, Docker, Markdown, LaTeX |
 
 
 
@@ -109,6 +119,17 @@ Major Project in the 28th Tsinghua University Intelligent Agent Competition
 
 - A **Turn-Based Strategy Game** developed as part of the competition.  
 - Involved in the game development, focusing on backend logic, writing unit tests, debugging, creating the SDK, authoring documentation, and assisting participants during the competition.
+
+##### **OpenGL Rendering Engine**
+
+*January 2026*  
+Personal Graphics Project  
+[[View Source Code]](https://github.com/Esperarr/Terrain_Engine)
+
+- Built a **modular real-time rendering engine** using **C++ and OpenGL**.
+- Implemented a basic **rendering pipeline**, including shader management, camera system, and mesh rendering.
+- Wrote **GLSL shaders** implementing lighting models, texture mapping, and skybox rendering.
+- Implemented water rendering with **reflection and refraction effects** using framebuffer techniques.
 
 
 ##### **Text Sentiment Analysis Model**  
@@ -127,6 +148,17 @@ Minor Project as part of curriculum
 *September 2023*
 
 Major Project as a part of Java course
+[[View Source Code]](https://github.com/Esperarr/My_News)
 
 - An **Android news app** written in **Java** that can fetch backend news data from a specified interface and display it on the app's pages. It is capable of implementing features such as **pull-down refresh**, **pull-up to load more**, **video playback**, **home page categorization**, **swipeable tab pages**, and the ability to **like and favorite news articles**.
 - Written in Java code within Android Studio, Completed the entire code architecture, coding, and debugging work for the news app. 
+
+##### **Connect Four AI**
+
+*June 2024*  
+Course Project  
+[[View Source Code]](https://github.com/Esperarr/Connect4_AI)
+
+- Developed a **Connect Four AI agent** in **C++** using **Monte Carlo Tree Search (MCTS)**.
+- Implemented **UCT-based node selection** and simulation strategies for efficient game-tree exploration.
+- Achieved a **win rate above 90%** against baseline AI opponents.
