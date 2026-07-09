@@ -131,6 +131,16 @@ Personal Graphics Project
 - Wrote **GLSL shaders** implementing lighting models, texture mapping, and skybox rendering.
 - Implemented water rendering with **reflection and refraction effects** using framebuffer techniques.
 
+##### **Path Tracing Renderer**
+
+*June 2026*  
+Course Project for Computer Graphics (Tsinghua University)  
+[[View Source Code]](https://github.com/Esperarr/TinyPathTracer)
+
+- A physically-based path tracer in C++ supporting both Whitted-style ray tracing and Monte Carlo path tracing with Russian Roulette for unbiased termination. For path tracing algriothm, **NEE + MIS** with power heuristic weighting for reduced variance in direct lighting.
+- PBR materials with **GGX microfacet** importance sampling (isotropic & anisotropic), **Cook-Torrance BRDF**, and Fresnel Schlick, which covers diffuse, mirror, glass, and glossy surfaces.
+- **Depth of field** (thin lens model), **MSAA** with edge-detection, **gamma correction**, **BVH acceleration** for 100k+ face meshes, and **OpenMP** parallelization across scanlines.
+
 
 ##### **Text Sentiment Analysis Model**  
 
