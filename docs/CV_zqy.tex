@@ -22,6 +22,7 @@
  
 \documentclass{resume} % Use the custom resume.cls style 
 \usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
 \usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
@@ -30,6 +31,7 @@
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional) 
 \address{+86 13269109251 \\ qy-zhou22@mails.tsinghua.edu.cn} % Your phone number and email
 \address{https://orcid.org/0009-0004-4448-7663}
+\address{https://esperarr.github.io/CV/}
 
 \definecolor{TsinghuaPurple}{cmyk}{0.58,0.90,0,0}
 \renewenvironment{rSection}[1]{
@@ -61,16 +63,13 @@ Xinya College, Tsinghua University: https://www.xyc.tsinghua.edu.cn/index.htm
 \\
 Department of Computer Science and Technology, Tsinghua University: https://www.cs.tsinghua.edu.cn/
 \\
-GPA 3.54/4.00
+GPA 3.6/4.0
 \\
-Selected A+ professional compulsory course: Introduction to Complex Analysis; \\
-Selected A/A- professional compulsory courses: Linear Algebra, Fundamentals of Programming, Programing and Training, Software Engineering, 	Introduction to Artificial Intelligence, Digital Logic Experimentation, Computer Network Security Technology\\
+Selected A+ professional compulsory course: Introduction to Complex Analysis, Media Computing, Database Special Topic Training; \\
+Selected A/A- professional compulsory courses: Linear Algebra, Fundamentals of Programming, Programing and Training, Software Engineering, Introduction to Artificial Intelligence, Introduction to Machine Learning, Digital Logic Experimentation, Computer Network Security Technology, 	Fundamentals of Computer Graphics, Network security engineering and practice\\
 %Minor in Linguistics \smallskip \\
 %Member of Eta Kappa Nu \\
 %Member of Upsilon Pi Epsilon \\
-\\
-{\bf Tianjin Nankai High School} \hfill
-{September 2019 - June 2022}
 
 
 \end{rSection} 
@@ -134,6 +133,13 @@ https://net9.org/home/}{}
 \item Led and organized the operation of certain engineering-related activity projects, such as intelligent robot design and card-bridge construction.
 \end{rSubsection}
 
+%------------------------------------------------
+
+\begin{rSubsection}{Volunteer Tutor at Tsinghua Q\&A Workshop}{September 2025 - Present}{Tsinghua University, Center for Student Learning and Development\\\url{https://learning.tsinghua.edu.cn/zxgk/ywjs.htm}}{}
+\item Provided tutoring for programming and computer science courses, including C/C++ programming, data structures, and algorithms.
+\item Assisted students with debugging, algorithm design, and understanding core programming concepts during regular tutoring sessions.
+\end{rSubsection}
+
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -168,6 +174,15 @@ Programming & C/C++,Python, Javascript/Typescript, Verilog/SystemVerilog, Java \
 \item Responsibled for writing backend logic, , writing unit tests, debugging, creating the SDK, authoring documentation, and guiding participants through the competition. 
  
 \end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Path Tracing Renderer}{June 2026}{Minor Project as a part of curriculum}{}
+\item Source code: \url{https://github.com/Esperarr/TinyPathTracer}
+\item A physically-based path tracer supporting both Whitted-style ray tracing and Monte Carlo path tracing with Russian Roulette for unbiased termination.
+\item Implements PBR materials with GGX microfacet importance sampling (isotropic \& anisotropic), Cook-Torrance BRDF, and Fresnel Schlick; covers diffuse, mirror, glass, and glossy surfaces.
+\item Features BVH acceleration for 100k+ face meshes, NEE + MIS with power heuristic weighting, depth of field, MSAA anti-aliasing, gamma correction, and OpenMP parallelization.
+\end{rSubsection}
 
 %------------------------------------------------
 

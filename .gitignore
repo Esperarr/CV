@@ -1,3 +1,4 @@
 .gitignore
 .workbuddy/
 site/
+.vscode/

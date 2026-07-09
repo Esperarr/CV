@@ -125,6 +125,13 @@
 \item 使用 GLSL 编写 shader，实现纹理映射、法线贴图与多光源动态光照。构建模块化渲染架构，包含 Shader、Mesh、Camera、Texture 等核心组件。实现多种图形学效果，包括天空盒、阴影贴图与水面反射/折射效果。
 \end{rSubsection}
 
+\begin{rSubsection}{路径追踪渲染器}{2026年3月}{计算机图形学课程项目}{}
+\item 项目源码：\url{https://github.com/Esperarr/TinyPathTracer}
+\item 基于 C++ 的物理路径追踪渲染器，支持 Whitted 风格光线追踪与蒙特卡洛路径追踪，使用俄罗斯轮盘赌实现无偏路径终止。
+\item 实现 PBR 材质系统，含 GGX 微表面重要性采样（各向同性/各向异性）、Cook-Torrance BRDF 与 Fresnel Schlick 近似，覆盖漫反射、镜面、玻璃与光泽表面。
+\item 集成 BVH 加速（质心中位数切分 + Slab 求交）、NEE + MIS 多重重要性采样、景深效果、MSAA 抗锯齿与 Gamma 校正，OpenMP 并行加速。
+\end{rSubsection}
+
 \begin{rSubsection}{文本情感分析模型}{2024年5月}{Python / Pytorch }{} 
 \item 项目源码：\url{https://github.com/Esperarr/SentimentAnalysis}
 \item 一个文本情感分类模型，可以根据输入文本分析语料库的情感倾向。
