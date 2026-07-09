@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 中等长度专业简历
+% LaTeX 模板
+% 版本 2.0 (2013/8/5)
+%
+% 本模板下载自：
+% http://www.LaTeXTemplates.com
+%
+% 原作者：
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% 重要说明：
+% 本模板要求 resume.cls 文件与
+% .tex 文件位于同一目录下。
+% resume.cls 文件提供用于构建
+% 文档结构的简历样式。
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	宏包及其他文档配置
+%----------------------------------------------------------------------------------------
+ 
+\documentclass{resume} % 使用自定义 resume.cls 样式
+\usepackage{ctex}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % 页面边距
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{周轻扬} % 姓名
+\address{清华大学} % 地址
+%\address{123 Pleasant Lane \\ City, State 12345} % 备用地址（可选）
+\address{+86 13269109251 \\ qy-zhou22@mails.tsinghua.edu.cn} % 电话和邮箱
+\address{\url{https://orcid.org/0009-0004-4448-7663}}
+\address{\url{https://esperarr.github.io/CV/}}
+
+\definecolor{TsinghuaPurple}{cmyk}{0.58,0.90,0,0}
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{TsinghuaPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\begin{document}  
+
+%----------------------------------------------------------------------------------------
+%	教育背景
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{教育背景}
+
+\textbf{清华大学} \hfill 2022年9月 -- 至今\\
+\href{https://www.xyc.tsinghua.edu.cn/index.htm}{新雅书院} · 
+\href{https://www.cs.tsinghua.edu.cn/}{计算机科学与技术系}
+
+\end{rSection}
+
+%--------------------------------------------------------------------------------------
+% 研究论文
+%--------------------------------------------------------------------------------------
+\begin{rSection}{科研论文}
+\item
+\textbf{``Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation''}\\
+\textit{Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, \textbf{Qingyang Zhou}, Wenwu Zhu}\\
+08 Aug 2024 (modified: 10 Dec 2024), 投稿至 AAAI 2025\\
+\url{https://openreview.net/pdf?id=kiGUqX6Gct}\\
+\url{https://esperarr.github.io/CV/Curriculum_Multi_Reward.pdf}
+
+\item
+\textbf{``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion''}\\
+\textit{Zipeng Zhang, Shiwei Wu, Ran Ran, \textbf{Qingyang Zhou}, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu}\\
+09 April 2025, 投稿至 UIST 2025\\
+\url{https://new.precisionconference.com/uist25a/coauthor/subs/1831}\\
+\url{https://esperarr.github.io/CV/Towards_Mutually_Illuminative_Collaborative_Human%E2%80%93AI_Deliberate_Discussion.pdf}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	科研实习/培训
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{科研实习}
+
+\begin{rSubsection}{清华大学多媒体与网络大数据实验室科研实习 }{2023年7月 - 2024年7月}{清华大学多媒体与网络大数据实验室: \url{https://mn.cs.tsinghua.edu.cn/index/index.html}}{}              
+\item 参与研究项目“结合大语言模型与扩散模型的视频生成系统”。
+\item 进行扩散模型与个性化图像生成方向的学习与研究。
+\item 协助完成论文《Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation》的研究
+与投稿工作。
+\end{rSubsection}  
+
+\begin{rSubsection}{泛在式人机交互实验室科研实习}{2025年1月 - 2025年5月}{清华大学泛在式人机交互实验室: \url{https://pi.cs.tsinghua.edu.cn/}}{}              
+\item 开展以对齐人类与人工智能思维过程为主题的研究。
+\item 开发人机交互式写作助手，支持协同创意生成。
+\item 参与研究与论文《Towards Mutually Illuminative Collaborative Human–AI Deliberate Discussion》的撰写与投稿（UIST 2025）
+\end{rSubsection}  
+
+\begin{rSubsection}{信息检索实验室科研实习}{2024年10月 - 2025年7月}{清华大学信息检索实验室: \url{http://www.thuir.cn/}}{}              
+\item 专注于改进传统推荐模型（如 FM、DeepFM、AFM）。
+\item 在推荐模型中引入 SAE 插件，提升模型的可解释性、可控性与透明性。
+\end{rSubsection}  
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	项目经历
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{项目经验}
+
+\begin{rSubsection}{智能体游戏``General``}{2023年9月 - 2024年5月}{第 28 届清华大学智能体大赛项目}{}
+\item 一款回合制策略博弈游戏，访问地址：\url{https://www.saiblo.net/game/35}
+\item 参与该游戏项目的开发工作，负责编写后台逻辑、编写单元测试、调试、创建 SDK、编写文档，赛务管理等。
+\end{rSubsection}  
+
+\begin{rSubsection}{OpenGL 地形渲染引擎}{2026年1月}{C++ / OpenGL / GLSL}{}
+\item 项目源码：\url{https://github.com/Esperarr/Terrain_Engine}
+\item 基于 C++ 与 OpenGL 实现轻量级实时渲染引擎，构建基础渲染管线与场景管理系统。
+\item 使用 GLSL 编写 shader，实现纹理映射、法线贴图与多光源动态光照。构建模块化渲染架构，包含 Shader、Mesh、Camera、Texture 等核心组件。实现多种图形学效果，包括天空盒、阴影贴图与水面反射/折射效果。
+\end{rSubsection}
+
+\begin{rSubsection}{文本情感分析模型}{2024年5月}{Python / Pytorch }{} 
+\item 项目源码：\url{https://github.com/Esperarr/SentimentAnalysis}
+\item 一个文本情感分类模型，可以根据输入文本分析语料库的情感倾向。
+\item 使用 Python 编写代码，利用 PyTorch 框架，分别构建了基于 CNN、RNN 和 MLP 的文本情感分类模型，并测试了模
+型性能。最终模型的准确率超过 90\%。
+\end{rSubsection}
+
+\begin{rSubsection}{Android 新闻应用}{2023年9月}{Java 课程大型项目}{}
+\item 项目源码：\url{https://github.com/Esperarr/My_News}
+\item 使用 Java 编写的 Android 新闻应用程序，能够从指定接口拉取后端新闻数据并在应用页面中展示。实现了下拉刷新、上拉加载更多、视频播放、首页分类、可滑动标签页、新闻点赞与收藏等功能。
+\item 在 Android Studio 中使用 Java 进行开发，独立完成了新闻应用的整体代码架构设计、编码与调试工作。
+\end{rSubsection}
+
+\begin{rSubsection}{Unity 游戏 Demo}{2025年12月}{Unity / C\#}{}
+\item 基于 Unity 官方教程开发小型 3D 游戏 Demo，实现角色移动、场景交互与基础 UI。
+\item 使用 Unity 组件系统与 C\# 脚本实现游戏逻辑。
+\end{rSubsection}
+
+\begin{rSubsection}{五级流水线 CPU}{2025年11月 - 2025年12月}{计算机组成原理课程项目}{}
+\item 实现可执行 19 条基础 RISC-V 指令及部分扩展指令的五级流水线 CPU。
+\item 使用 System Verilog 编写硬件代码，实现数据传递、信号控制与冒险处理，并通过 Vivado 仿真完成调试。
+\end{rSubsection}
+
+\begin{rSubsection}{四子棋游戏AI}{2024年6月}{课程项目}{}
+\item 项目源码：\url{https://github.com/Esperarr/Connect4_AI}
+\item 使用c++实现实现四子棋游戏中可与现有 AI 对战的 AI。基于 Monte Carlo Tree Search（MCT）与 Upper Confidence Bound（UCT）算法实现，最终胜率超过 90\%。
+\end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	学生工作
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{社工经历}
+
+\begin{rSubsection}{清华大学计算机系科协智能体部干事}{2023年2月 - 至今}{清华大学计算机科学与技术系学生科协智能体部:\url{https://net9.org/home/}}{}              
+\item 参与智能体大赛的游戏开发与活动组织，主要负责第 28 届清华大学智能体大赛中智能体游戏《Generals》的开发工作。
+\end{rSubsection}  
+
+\begin{rSubsection}{清华大学答疑坊志愿者}{2025年9月 - 至今}{清华大学学业发展协会}{}
+\item 为本科生提供程序设计与计算机课程答疑，包括 C/C++ 程序设计、数据结构与算法等。
+\item 通过线上与线下形式解答学习问题，帮助同学理解编程与算法相关概念。
+\end{rSubsection}
+
+\begin{rSubsection}{清华大学科技与工程夏令营辅导员}{2024年7月 - 2024年8月}{}{} 
+\item 负责活动组织、解答专业问题及其他相关任务。组织并带领部分工程实践活动项目，如智能机器人设计与纸桥搭建。
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	技能
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{技能}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+
+语言 & 中文（母语）、英语（流利）、西班牙语（基础） \\
+
+编程语言 & C/C++、Python、Java、JavaScript/TypeScript、Rust、Verilog/SystemVerilog \\
+
+图形学 & OpenGL、GLSL、Unity \\
+
+AI / 机器学习 & PyTorch、NumPy、机器学习与深度学习基础 \\
+
+工具 & Git、Linux、LaTeX、Markdown
+
+\end{tabular}
+
+\end{rSection}
+
+
+
+\end{document}
