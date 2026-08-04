@@ -1,0 +1,170 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Rhodes Scholarship CV - Qingyang Zhou
+% Based on CV_zqy.tex, condensed to 2 pages (12pt, A4)
+% Requires resume_rhodes.cls in the same directory
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume_rhodes} % 12pt, A4
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage[left=0.4 in,top=0.2 in,right=0.4 in,bottom=0.15in]{geometry} % Document margins
+\usepackage{setspace}
+\setstretch{0.96}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Qingyang Zhou}
+\address{Tsinghua University, Hai Dian, Beijing}
+\address{+86 13269109251 \\ qy-zhou22@mails.tsinghua.edu.cn}
+\address{https://orcid.org/0009-0004-4448-7663}
+\address{https://esperarr.github.io/CV/}
+
+\definecolor{TsinghuaPurple}{cmyk}{0.58,0.90,0,0}
+
+% Tighten vertical spacing to fit two pages
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=-2pt, topsep=1pt, parsep=0pt}
+\def\sectionskip{\smallskip}
+\def\sectionlineskip{\smallskip}
+\def\nameskip{\medskip}
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{TsinghuaPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+\begin{document}  
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Tsinghua University} \hfill
+{September 2022 - Present}\\ 
+Xinya College, Tsinghua University: https://www.xyc.tsinghua.edu.cn/index.htm
+\\
+Department of Computer Science and Technology, Tsinghua University: https://www.cs.tsinghua.edu.cn/
+\\
+GPA 3.6/4.0
+\\
+Selected A+ professional compulsory course: Introduction to Complex Analysis, Media Computing, Database Special Topic Training; \\
+
+\end{rSection} 
+
+%--------------------------------------------------------------------------------------
+%   Research Publications 
+%--------------------------------------------------------------------------------------
+\begin{rSection}{ Research Publication } \itemsep -3pt        
+{\textbf{"Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation"}\\
+ \textit{Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, \textbf{Qingyang Zhou}, Wenwu Zhu }\\
+ 08 Aug 2024 (modified: 10 Dec 2024) Submitted to AAAI 2025}\\
+ https://openreview.net/pdf?id=kiGUqX6Gct\\
+
+ {\textbf{"Towards Mutually Illuminative Collaborative Human–AI Deliberate Discussion"}\\
+ \textit{Zipeng Zhang , Shiwei Wu, Ran Ran, \textbf{Qingyang Zhou}, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu }\\
+ 09 April 2025 Submitted to UIST 2025}\\
+ https://new.precisionconference.com/uist25a/coauthor/subs/1831\\
+ 
+\end{rSection}
+
+%	INTERNSHIP/TRAININGS 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{INTERNSHIP/TRAININGS}
+
+\begin{rSubsection}{Client Development Engineer Intern at Tencent (Project MAX)}{May 2026 - August 2026}{Tencent, Project MAX Team}{}              
+\item Optimized NavMesh pathfinding to improve agent movement smoothness, resolving instability on terrain bumps and convex corner edges; implemented NPC auto-navigation using custom FixNavMesh algorithms.
+\item Developed a GM panel for debugging and performance stats toggling, and built the game control panel UI for the 2V2 battle mode.
+\end{rSubsection}  
+
+\begin{rSubsection}{scientific research internship at Multimedia and Network Big Data Lab}{July 2023 - July 2024}{Tsinghua University Multimedia and Network Big Data Lab: https://mn.cs.tsinghua.edu.cn/index/index.html}{}              
+\item Conducted study and research on diffusion models and personalized image generation, within the project "Video Generation System Combining Large Language Models with Diffusion Models".
+\item Assisted in publishing the paper: "Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation".
+\end{rSubsection}  
+
+\begin{rSubsection}{scientific research internship at Pervasive Human Computer Interaction Lab}{January 2025 - April 2025}{Tsinghua University Pervasive Human Computer Interaction Laboratory: https://pi.cs.tsinghua.edu.cn/}{}              
+\item Conducted research on aligning human and AI thought processes.
+\item Developed a human-AI interactive writing assistant to support collaborative idea generation.
+\item Contributed to the research and UIST 2025 submission of the paper "Towards Mutually Illuminative Collaborative Human–AI Deliberate Discussion".
+\end{rSubsection}  
+
+\begin{rSubsection}{scientific research internship at Information Retrieval Lab}{October 2024 - Present}{Information Retrieval Lab at Tsinghua University: http://www.thuir.cn/}{}              
+\item Focused on improving traditional recommendation models (such as FM, DeepFM, AFM).
+\item Incorporated SAE plugins into these models to enhance their interpretability, controllability, and transparency.
+\end{rSubsection}  
+
+\end{rSection}
+
+ %-----------------------------------------------------------------------------
+ % POSITION OF RESPONSIBILITY
+ %-----------------------------------------------------------------------------
+  
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Secretary of the Intelligent Agent Department of the Student Science and Technology Association}{February 2023 - Present}{Tsinghua University CST Department, Student Science and Technology Association: https://net9.org/home/}{}              
+\item Participated in the game development and event organization for the Intelligent Agent Competition.
+\item Mainly responsible for the development of the Intelligent Agent-Based Game 'Generals' Project in the 28th Tsinghua University Intelligent Agent Competition.
+\end{rSubsection}  
+
+\begin{rSubsection}{Volunteer Tutor at Tsinghua Q\&A Workshop}{September 2025 - Present}{Tsinghua University, Center for Student Learning and Development: \url{https://learning.tsinghua.edu.cn/zxgk/ywjs.htm}}{}
+\item Provided tutoring for programming and computer science courses, including C/C++ programming, data structures, and algorithms.
+\item Assisted students with debugging, algorithm design, and understanding core programming concepts during regular tutoring sessions.
+\end{rSubsection}
+
+\begin{rSubsection}{Tutor of Tsinghua University Science and Engineering Summer Camp} {July 2024 - August 2024}{Tsinghua University 2024 Science and Engineering Summer Camp I6 Class Tutor}{} 
+\item Responsible for event organization, answering professional questions, and other related tasks.
+\item Led and organized engineering-related activity projects, such as intelligent robot design and card-bridge construction.
+\end{rSubsection}
+
+\begin{rSubsection}{Educational Outreach \& Community Service}{2022 - Present}{Tsinghua University Public Welfare Initiatives}{}
+\item Exchanged letters with and donated books to children in rural mountainous areas, offering ongoing encouragement and mentorship.
+\item Delivered lectures at a county high school on study methods and university major selection during rural field practice; advised prospective students on academic pathways as part of Tsinghua's Tianjin recruitment team.
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%	PROJECTS
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+
+\begin{rSubsection}{Path Tracing Renderer}{June 2026}{Personal Graphics Project: \url{https://github.com/Esperarr/TinyPathTracer}}{}
+\item A physically-based path tracer supporting Whitted-style ray tracing and Monte Carlo path tracing, with PBR materials (GGX importance sampling, Cook-Torrance BRDF, Fresnel Schlick) across diffuse, mirror, glass, and glossy surfaces.
+\item Features BVH acceleration for 100k+ face meshes, NEE + MIS, depth of field, MSAA anti-aliasing, gamma correction, and OpenMP parallelization.
+\end{rSubsection}
+
+\begin{rSubsection}{Intelligent Agent-Based Game 'Generals'} {September 2023 - May 2024}{Major Project in the 28th Tsinghua University Intelligent Agent Competition: https://www.saiblo.net/game/35}{}
+\item A turn-based strategy game developed for the competition; responsible for backend logic, unit tests, debugging, SDK creation, documentation, and guiding participants.
+\end{rSubsection}  
+
+\end{rSection} 
+
+%--------------------------------------------------------------------------------------
+%	Skills, Interests & Extra-Curricular
+%--------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills, Interests \& Extra-Curricular}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }  
+Languages & Chinese (Native), English (Fluent), Spanish (Basic)\\    
+Programming & C/C++, Python, JavaScript/TypeScript, Java, Rust, Verilog/SystemVerilog \\
+Graphics / Tools & OpenGL, GLSL, Unity, PyTorch, Git, Linux, Docker, LaTeX
+\end{tabular}   
+\\
+\textbf{Writing \& Arts:} Passionate about creative writing (essays and poetry); member of the university Musical Theatre Club, Classical Poetry Society, and Street Dance Club. \\
+\textbf{Student Service:} Publicity Department Executive at Xinya College (Sept 2022 - Sept 2023).
+
+\end{rSection}
+
+\end{document}
