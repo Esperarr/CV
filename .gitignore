@@ -1,15 +1,14 @@
-.gitignore
+# .gitignore
 .workbuddy/
-site/
+# site/
 .vscode/
 .backup_*/
 
-# LaTeX 中间产物
-*.aux
-*.log
-*.out
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.xdv
-docs/build/
+# # LaTeX 中间产物
+# *.aux
+# *.log
+# *.out
+# *.synctex.gz
+# *.fls
+# *.fdb_latexmk
+# *.xdv
