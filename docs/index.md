@@ -18,18 +18,15 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ## **▪️Research Publications**
 
-**"Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation"**  
-*Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, **Qingyang Zhou**, Wenwu Zhu*  
-*Submitted to AAAI 2025*  
-08 August 2024 (Modified: 10 December 2024)  
-[[OpenReview link]](https://openreview.net/pdf?id=kiGUqX6Gct)
+**"Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation"** 
+*Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, **Qingyang Zhou**, Wenwu Zhu*
+*Submitted for publication*
 [[View PDF]](Curriculum_Multi_Reward.pdf)
 
 **"Towards Mutually Illuminative Collaborative Human–AI Deliberate Discussion"**
 
 *Zipeng Zhang , Shiwei Wu, Ran Ran, **Qingyang Zhou**, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu*
-*Submitted to UIST 2025*  
-[[PCS link]](https://new.precisionconference.com/uist25a/coauthor/subs/1831)
+*Submitted for publication*
 [[View PDF]](Towards_Mutually_Illuminative_Collaborative_Human–AI_Deliberate_Discussion.pdf)
 
 ## **▪️Internship & Research Experience**
