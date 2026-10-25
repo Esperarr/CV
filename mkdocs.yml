@@ -1,2 +1,5 @@
-site_name: My GitHub Pages
-theme: mkdocs
+site_name: Qingyang Zhou
+docs_dir: docs
+site_dir: site
+theme:
+  name: mkdocs

@@ -3,8 +3,7 @@
 
 **📍Tsinghua University**  
 <!-- **Research Interests:** AI, 3D Vision&Reconstruction, Computer Graphics, Computer Vision, LLM, ML Security   -->
-![alt text](pic2.jpg)
-<!-- [Download CV](CV_zqy.pdf) -->
+![Portrait](assets/photos/pic2.jpg)
 
 ## **▪️Education**  
 
@@ -21,15 +20,24 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 **"Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation"** 
 *Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, **Qingyang Zhou**, Wenwu Zhu*
 *Submitted for publication*
-[[View PDF]](Curriculum_Multi_Reward.pdf)
+[[View PDF]](assets/papers/Curriculum_Multi_Reward.pdf)
 
 **"Towards Mutually Illuminative Collaborative Human–AI Deliberate Discussion"**
 
 *Zipeng Zhang , Shiwei Wu, Ran Ran, **Qingyang Zhou**, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu*
 *Submitted for publication*
-[[View PDF]](Towards_Mutually_Illuminative_Collaborative_Human–AI_Deliberate_Discussion.pdf)
+[[View PDF]](assets/papers/Towards_Mutually_Illuminative_Collaborative_Human–AI_Deliberate_Discussion.pdf)
 
 ## **▪️Internship & Research Experience**
+
+##### **Client Development Engineer Intern at Tencent (Project MAX)**
+
+📅 *May 2026 - August 2026*  
+📍 Tencent, Project MAX Team
+
+- Optimized NavMesh pathfinding to improve agent movement smoothness, resolving instability on terrain bumps and convex corner edges.
+- Implemented NPC auto-navigation and pathfinding behavior using custom FixNavMesh algorithms.
+- Developed a GM panel for debugging and performance stats toggling and built the game control panel UI for the 2V2 battle mode.
 
 
 ##### **Scientific Research Internship at Multimedia and Network Big Data Lab** 
@@ -47,7 +55,7 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 📅 *January 2025 - April 2025*  
 [📍 Tsinghua University Pervasive Human-Computer Interaction Lab](https://pi.cs.tsinghua.edu.cn/)  
 
-  - Conducting research on **aligning human and AI thought processes**, submitted to **UIST 2025**.
+  - Conducting research on **aligning human and AI thought processes**; manuscript submitted for publication.
 
   - In charge of building a **writing assistant application** that facilitates collaborative idea development.
 
@@ -117,16 +125,6 @@ Major Project in the 28th Tsinghua University Intelligent Agent Competition
 - A **Turn-Based Strategy Game** developed as part of the competition.  
 - Involved in the game development, focusing on backend logic, writing unit tests, debugging, creating the SDK, authoring documentation, and assisting participants during the competition.
 
-##### **OpenGL Rendering Engine**
-
-*January 2026*  
-Personal Graphics Project  
-[[View Source Code]](https://github.com/Esperarr/Terrain_Engine)
-
-- Built a **modular real-time rendering engine** using **C++ and OpenGL**.
-- Implemented a basic **rendering pipeline**, including shader management, camera system, and mesh rendering.
-- Wrote **GLSL shaders** implementing lighting models, texture mapping, and skybox rendering.
-- Implemented water rendering with **reflection and refraction effects** using framebuffer techniques.
 
 ##### **Path Tracing Renderer**
 
@@ -141,7 +139,6 @@ Course Project for Computer Graphics (Tsinghua University)
 
 ##### **Text Sentiment Analysis Model**  
 
-
 *May 2024*  
 Minor Project as part of curriculum 
 [[View Source Code]](https://github.com/Esperarr/SentimentAnalysis) 
@@ -151,9 +148,7 @@ Minor Project as part of curriculum
 
 ##### **Android news App**
 
-
 *September 2023*
-
 Major Project as a part of Java course
 [[View Source Code]](https://github.com/Esperarr/My_News)
 

@@ -4,11 +4,17 @@
 .vscode/
 .backup_*/
 
-# # LaTeX 中间产物
-# *.aux
-# *.log
-# *.out
-# *.synctex.gz
-# *.fls
-# *.fdb_latexmk
-# *.xdv
+# LaTeX build output
+cv/current/build/
+tmp/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+
+# Python/tool caches
+__pycache__/
+
