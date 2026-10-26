@@ -51,14 +51,38 @@
 \begin{list}{}{
 %\setlength{\leftmargin}{1.5em}
 \setlength{\leftmargin}{0em}
+\setlength{\topsep}{4pt}
+\setlength{\parsep}{0pt}
 }
 \item[]
 }{
 \end{list}
 }
 
+\renewenvironment{rSubsection}[4]{
+ {\bf #1} \hfill {#2}
+ \ifthenelse{\equal{#3}{}}{}{
+  \\
+  {\em #3}
+ }
+ \begin{list}{$\cdot$}{
+  \setlength{\leftmargin}{1.0em}
+  \setlength{\itemsep}{0.15em}
+  \setlength{\topsep}{0.15em}
+  \setlength{\parsep}{0pt}
+  \setlength{\partopsep}{0pt}
+ }
+}{
+ \end{list}
+ \vspace{0.3em}
+}
+
 
 \begin{document}  
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\def\sectionskip{\vspace{8pt}}
+\def\sectionlineskip{\vspace{1pt}}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -74,7 +98,7 @@ Department of Computer Science and Technology, Tsinghua University: https://www.
 \\
 GPA 3.6/4.0
 \\
-Selected coursework: Complex Analysis (A+), Linear Algebra, Introduction to Artificial Intelligence, Introduction to Machine Learning, Computer Graphics, and Computer Network Security.\\
+Selected A/A+ coursework: Complex Analysis (A+), Media Computing(A+), Database Special Topic Training(A+), Introduction to Artificial Intelligence, Introduction to Machine Learning, Fundamentals of Computer Graphics, Students Research Training, Programing and Training.
 %Minor in Linguistics \smallskip \\
 %Member of Eta Kappa Nu \\
 %Member of Upsilon Pi Epsilon \\
@@ -88,10 +112,11 @@ Selected coursework: Complex Analysis (A+), Linear Algebra, Introduction to Arti
 \begin{rSection}{Research Projects} \itemsep -3pt
 {\textbf{``Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation''}\\
  \textit{Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, \textbf{Qingyang Zhou}, Wenwu Zhu }\\
- \href{https://openreview.net/pdf?id=kiGUqX6Gct}{OpenReview preprint}}\\
+ \href{https://openreview.net/pdf?id=kiGUqX6Gct}{OpenReview}\quad \href{https://esperarr.github.io/CV/assets/papers/Curriculum_Multi_Reward.pdf}{Paper PDF}}
 
  {\textbf{``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion''}\\
- \textit{Zipeng Zhang , Shiwei Wu, Ran Ran, \textbf{Qingyang Zhou}, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu }}\\
+ \textit{Zipeng Zhang , Shiwei Wu, Ran Ran, \textbf{Qingyang Zhou}, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu }\\
+ \href{https://esperarr.github.io/CV/assets/papers/Towards_Mutually_Illuminative_Collaborative_Human\%E2\%80\%93AI_Deliberate_Discussion.pdf}{Paper PDF}}
  
 \end{rSection}
 
@@ -126,11 +151,18 @@ Selected coursework: Complex Analysis (A+), Linear Algebra, Introduction to Arti
 
 \end{rSection}
 
- %-----------------------------------------------------------------------------
+%-----------------------------------------------------------------------------
  % POSITION OF RESPONSIBILITY
  %-----------------------------------------------------------------------------
-  
+
 \begin{rSection}{POSITIONS OF RESPONSIBILITY}
+
+\begin{rSubsection}{Volunteer Teaching Assistant (Programming and Algorithms)}{September 2025 - Present}{Tsinghua University, Center for Student Learning and Development: \href{https://learning.tsinghua.edu.cn/zxgk/ywjs.htm}{learning.tsinghua.edu.cn}}{}
+\item Provided drop-in tutoring for programming and computer science courses, including C/C++ programming, data structures, and algorithms.
+\item Assisted students with debugging, algorithm design, and understanding core programming concepts during regular tutoring sessions.
+\end{rSubsection}
+
+%------------------------------------------------
 
 \begin{rSubsection}{Secretary of the Intelligent Agent Department \\of the Student Science and Technology Association}{February 2023 - Present}{Tsinghua University Computer Science and Technology Department,\\ Student Science and Technology Association,\\ Intelligent Agent Department: \href{https://net9.org/home/}{net9.org/home}}{}
 \item Participated in the game development and event organization for the Intelligent Agent Competition.  
@@ -144,12 +176,6 @@ Selected coursework: Complex Analysis (A+), Linear Algebra, Introduction to Arti
 \item Led and organized the operation of certain engineering-related activity projects, such as intelligent robot design and card-bridge construction.
 \end{rSubsection}
 
-%------------------------------------------------
-
-\begin{rSubsection}{Volunteer Teaching Assistant (Programming and Algorithms)}{September 2025 - Present}{Tsinghua University, Center for Student Learning and Development: \href{https://learning.tsinghua.edu.cn/zxgk/ywjs.htm}{learning.tsinghua.edu.cn}}{}
-\item Provided drop-in tutoring for programming and computer science courses, including C/C++ programming, data structures, and algorithms.
-\item Assisted students with debugging, algorithm design, and understanding core programming concepts during regular tutoring sessions.
-\end{rSubsection}
 
 \end{rSection}
 
@@ -162,7 +188,7 @@ Selected coursework: Complex Analysis (A+), Linear Algebra, Introduction to Arti
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}} >{\raggedright\arraybackslash}p{0.62\textwidth} }
 Languages & Chinese (native), English (fluent), Spanish (basic)\\
 Programming & C/C++, Python, Java, JavaScript/TypeScript, Rust, Verilog/SystemVerilog\\
-Graphics \& Game Development & OpenGL, GLSL, Unity, path tracing, rendering pipelines\\
+Graphics \& Game Development & OpenGL, Unity, path tracing, rendering pipelines\\
 AI / Machine Learning & PyTorch, NumPy, machine learning and deep learning fundamentals\\
 Tools & Git, Linux, Docker, LaTeX, Markdown\\
  
@@ -201,6 +227,7 @@ Tools & Git, Linux, Docker, LaTeX, Markdown\\
 %------------------------------------------------
 
 \begin{rSubsection}{Text Sentiment Analysis Model}{May 2024}{Course Project}{}
+\item Source code: \href{https://github.com/Esperarr/SentimentAnalysis}{github.com/Esperarr/SentimentAnalysis}
 \item A text sentiment classification model that can analyze the sentiment of the corpus based on the input text.
 \item Built CNN, RNN, and MLP sentiment classifiers in Python and PyTorch, then evaluated their performance. The final model achieved over 90\% accuracy.
 
@@ -221,19 +248,12 @@ Tools & Git, Linux, Docker, LaTeX, Markdown\\
 
 \begin{rSubsection}{Connect Four AI}{June 2024}{Course Project}{}
 
+\item Source code: \href{https://github.com/Esperarr/Connect4_AI}{github.com/Esperarr/Connect4\_AI}
 \item A Connect Four AI agent developed in Python.
 \item Implemented Monte Carlo Tree Search (MCTS) with Upper Confidence bounds for Trees (UCT), achieving a win rate above 90\% against baseline AI opponents.
 
 \end{rSubsection}
 
-%-------------------------------------------------- 
-
-\begin{rSubsection}{Chinese Pinyin Input Method}{April 2024}{Course Project}{}
-
-\item A Python input-method program that converts Pinyin into Chinese characters.
-\item Used a hidden Markov model and the Viterbi algorithm, achieving over 85\% character prediction accuracy.
-
-\end{rSubsection} 
 
 \end{rSection}
 
