@@ -1,5 +1,8 @@
 # Qingyang Zhou (周轻扬)
-###### ——**Third-Year Computer Science Undergraduate | Researcher**
+
+<p align="right"><a href="index_zh.html">中文</a> | <strong>English</strong></p>
+
+###### ——**Computer Science Undergraduate | Researcher**
 
 **📍Tsinghua University**  
 <!-- **Research Interests:** AI, 3D Vision&Reconstruction, Computer Graphics, Computer Vision, LLM, ML Security   -->
@@ -14,8 +17,7 @@ Xinya College, Tsinghua University: [Xinya College](https://www.xyc.tsinghua.edu
 Department of Computer Science and Technology, Tsinghua University: [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/csen/)  
 
 
-
-## **▪️Research Publications**
+## **▪️Research Projects**
 
 **"Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation"** 
 
@@ -53,17 +55,17 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ##### **Scientific Research Internship at Pervasive Human-Computer Interaction Lab**  
 
-📅 *January 2025 - April 2025*  
+📅 *January 2025 - May 2025*
 [📍 Tsinghua University Pervasive Human-Computer Interaction Lab](https://pi.cs.tsinghua.edu.cn/)  
 
-  - Conducting research on **aligning human and AI thought processes**; manuscript submitted for publication.
+  - Conducted research on **aligning human and AI thought processes** during collaborative deliberation.
 
   - In charge of building a **writing assistant application** that facilitates collaborative idea development.
 
 
 ##### **Scientific Research Internship at Information Retrieval Lab** 
 
-📅 *October 2024 - Present*  
+📅 *October 2024 - July 2025*
 [📍 Tsinghua University Information Retrieval Lab](http://www.thuir.cn/)  
 
   - Focused on improving traditional recommendation models (such as FM, DeepFM, AFM).  
@@ -81,13 +83,13 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 - Contributed to game development and event organization for the **Intelligent Agent Competition**.  
 - Led the development of the **Intelligent Agent-Based Game 'Generals'** in the 28th Tsinghua University Intelligent Agent Competition.
 
-##### **Volunteer Tutor at Tsinghua Q&A Workshop**
+##### **Volunteer Teaching Assistant (Programming and Algorithms)**
 
 📅 *September 2025 - Present*  
-📍 Tsinghua University ,[Center for Student Learning and Development](https://learning.tsinghua.edu.cn/zxgk/ywjs.htm) 
+📍 Tsinghua University, [Center for Student Learning and Development](https://learning.tsinghua.edu.cn/zxgk/ywjs.htm)
 
-- Provided tutoring for **programming and computer science courses**, including **C/C++ programming**, **data structures**, and **algorithms**.  
-- Assisted students with **debugging, algorithm design, and understanding core programming concepts** during regular tutoring sessions.
+- Provided drop-in tutoring in **C/C++ programming**, **data structures**, and **algorithms**.
+- Helped students debug code, reason about algorithm design, and clarify core programming concepts.
   
 
 ##### **Tutor at Tsinghua University Science and Engineering Summer Camp**  

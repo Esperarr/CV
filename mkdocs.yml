@@ -1,5 +1,10 @@
 site_name: Qingyang Zhou
 docs_dir: docs
 site_dir: site
+use_directory_urls: false
 theme:
   name: mkdocs
+
+nav:
+  - English: index.md
+  - 中文: index_zh.md
