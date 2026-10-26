@@ -18,6 +18,7 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 ## **▪️Research Publications**
 
 **"Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation"** 
+
 *Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, **Qingyang Zhou**, Wenwu Zhu*
 *Submitted for publication*
 [[View PDF]](assets/papers/Curriculum_Multi_Reward.pdf)
