@@ -137,7 +137,7 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 
 \begin{rSubsection}{Research Intern, Pervasive Human-Computer Interaction Lab}{January 2025 -- May 2025}{\href{https://pi.cs.tsinghua.edu.cn/}{Tsinghua University Pervasive Human-Computer Interaction Laboratory}}{}
 \item Surveyed and presented literature on aligning human and AI thought processes; contributed to group discussions on the research direction.
-\item Implemented part of the core logic for a human--AI interactive writing assistant that supports collaborative idea generation.
+\item Implemented part of the core logic in the codebase of a human--AI interactive writing assistant supporting collaborative idea generation.
 \item Co-authored ``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion'' (see Manuscripts).
 \end{rSubsection}  
 
@@ -156,9 +156,9 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 \begin{rSection}{Industry Experience}
  
 \begin{rSubsection}{Client Development Engineer Intern, Tencent (Project MAX)}{May 2026 -- August 2026}{Tencent, Project MAX Team}{}
-\item Optimized NavMesh-based character movement in battle, resolving stuttering on terrain bumps and sticking at convex corners; fixed a defect that allowed characters to leave the map during dash displacement by restricting destinations to the navigable region.
-\item Developed a Scene-view debugging tool for the fixed-point logic layer that reads movement state at runtime through reflection and visualizes target points, input direction, and trajectories, with automatic stuck detection.
-\item Developed in-battle GM tools, including performance overlays for the 2V2 mode and a buff inspector for the test scene; implemented the captain-selection hero showcase with model fallback, animation blending, and camera control; documented the NavMesh baking workflow.
+\item Diagnosed and fixed NavMesh movement issues in battle, including terrain stutter and corner sticking; corrected dash destinations outside the map while preserving valid paths through obstacles.
+\item Wrote a Scene-view debugging script that visualizes NavMesh targets, joystick direction, and recent movement trajectories, with automatic stuck detection.
+\item Built an in-battle GM panel for FPS, performance, version, and time overlays, and developed UI for captain selection and main-city interactions; documented the NavMesh baking workflow.
 \end{rSubsection}  
  
 \end{rSection}
@@ -170,9 +170,9 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 \begin{rSection}{Selected Projects}
 
 \begin{rSubsection}{Path Tracing Renderer \href{https://github.com/Esperarr/TinyPathTracer}{\small[Source code]}}{June 2026}{Computer Graphics Course Project}{}
-\item Developed a physically based renderer supporting Whitted-style ray tracing and Monte Carlo path tracing with Russian roulette termination.
-\item Implemented physically based materials with GGX microfacet importance sampling (isotropic and anisotropic), the Cook--Torrance BRDF, and Schlick's Fresnel approximation, covering diffuse, mirror, glass, and glossy surfaces.
-\item Added BVH acceleration for meshes with over 100k faces, next-event estimation (NEE) with multiple importance sampling (MIS, power heuristic), depth of field, MSAA, gamma correction, and OpenMP parallelization.
+\item Built a C++ renderer supporting Whitted-style ray tracing and Monte Carlo path tracing with Russian roulette termination.
+\item Implemented PBR shading with GGX importance sampling (isotropic/anisotropic), Cook--Torrance BRDF, Fresnel--Schlick, and OBJ UV texture mapping for diffuse, mirror, glass, and glossy materials.
+\item Added BVH acceleration for 100k+ face meshes, area/point/directional/spot lighting, depth of field, MSAA, gamma correction, and OpenMP parallelization.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -234,7 +234,7 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 \begin{rSection}{Skills}
 
 % TODO: if you are not comfortable being asked about Java, JavaScript/TypeScript or Rust in an interview, remove them.
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} >{\raggedright\arraybackslash}p{0.68\textwidth} }
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} >{\raggedright\arraybackslash}p{0.665\textwidth} }
 Languages & Chinese (native), English (TOEFL 108), Spanish (basic)\\
 Programming & Python, C/C++, C\#, SystemVerilog, Java, JavaScript/TypeScript, Rust\\
 AI/Machine Learning & PyTorch, NumPy, fundamentals of machine learning and deep learning\\
