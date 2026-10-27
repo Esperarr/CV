@@ -16,6 +16,11 @@
 % document.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Revised for graduate school applications.
+% Search for "TODO" to find places where you should fill in real facts/numbers.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 
@@ -31,8 +36,10 @@
 \address{Tsinghua University, Haidian, Beijing} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional) 
 \address{+86 13269109251 \\ qy-zhou22@mails.tsinghua.edu.cn} % Your phone number and email
+% TODO: your old PDF did not show the ORCID line, so resume.cls may only print 3 address lines.
+% If ORCID is missing in the compiled PDF, merge it into the line below.
 \address{https://orcid.org/0009-0004-4448-7663}
-\address{https://esperarr.github.io/CV/}
+\address{https://esperarr.github.io/CV/ \\ https://github.com/Esperarr}
 
 \definecolor{TsinghuaPurple}{cmyk}{0.58,0.90,0,0}
 \hypersetup{
@@ -74,7 +81,7 @@
  }
 }{
  \end{list}
- \vspace{0.3em}
+ \vspace{0.2em}
 }
 
 
@@ -91,90 +98,132 @@
 \begin{rSection}{Education}
 
 {\bf Tsinghua University} \hfill
-{September 2022 - Present}\\ 
-\href{https://www.xyc.tsinghua.edu.cn/index.htm}{Xinya College}, Tsinghua University
+{September 2022 -- Expected 2027}\\
+\href{https://www.xyc.tsinghua.edu.cn/index.htm}{Xinya College} \& \href{https://www.cs.tsinghua.edu.cn/}{Department of Computer Science and Technology}
 \\
-\href{https://www.cs.tsinghua.edu.cn/}{Department of Computer Science and Technology}, Tsinghua University
+GPA: 3.6/4.0 % TODO: if you have a major GPA, last-two-years GPA, or rank (e.g. top X\%), add it here
 \\
-GPA 3.6/4.0
-\\
-Selected A/A+ coursework: Complex Analysis (A+), Media Computing(A+), Database Special Topic Training(A+), Introduction to Artificial Intelligence, Introduction to Machine Learning, Fundamentals of Computer Graphics, Students Research Training, Programing and Training.
-%Minor in Linguistics \smallskip \\
-%Member of Eta Kappa Nu \\
-%Member of Upsilon Pi Epsilon \\
-
+Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Special Topic Training (A+), Introduction to Artificial Intelligence, Introduction to Machine Learning, Fundamentals of Computer Graphics. % TODO: add grades for the other courses, or keep as is
 
 \end{rSection} 
 
 %--------------------------------------------------------------------------------------
-%   Research Projects
+%   MANUSCRIPTS
 %--------------------------------------------------------------------------------------
-\begin{rSection}{Research Projects} \itemsep -3pt
+\begin{rSection}{Manuscripts} \itemsep -3pt
+% Both papers were submitted but not accepted, so they are listed as unpublished manuscripts
+% (do NOT write "under review", "submitted to publication" or "accepted").
 {\textbf{``Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation''}\\
- \textit{Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, \textbf{Qingyang Zhou}, Wenwu Zhu }\\
- \href{https://openreview.net/pdf?id=kiGUqX6Gct}{OpenReview}\quad \href{https://esperarr.github.io/CV/assets/papers/Curriculum_Multi_Reward.pdf}{Paper PDF}}
+ \textit{Yuwei Zhou, Xin Wang, Hong Chen, Yipeng Zhang, \textbf{Qingyang Zhou}, Wenwu Zhu}\\
+ \textit{Manuscript}\quad \href{https://openreview.net/pdf?id=kiGUqX6Gct}{OpenReview}\quad \href{https://esperarr.github.io/CV/assets/papers/Curriculum_Multi_Reward.pdf}{Paper PDF}}
 
  {\textbf{``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion''}\\
- \textit{Zipeng Zhang , Shiwei Wu, Ran Ran, \textbf{Qingyang Zhou}, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu }\\
- \href{https://esperarr.github.io/CV/assets/papers/Towards_Mutually_Illuminative_Collaborative_Human\%E2\%80\%93AI_Deliberate_Discussion.pdf}{Paper PDF}}
+ % TODO: "Zhenhui" is missing a surname; please complete it.
+ \textit{Zipeng Zhang, Shiwei Wu, Ran Ran, \textbf{Qingyang Zhou}, Ranrui Ma, Jiaye Leng, Jian Zeng, Zhenhui, Chun Yu}\\
+ \textit{Manuscript}\quad \href{https://esperarr.github.io/CV/assets/papers/Towards_Mutually_Illuminative_Collaborative_Human\%E2\%80\%93AI_Deliberate_Discussion.pdf}{Paper PDF}}
  
 \end{rSection}
 
-%	INTERNSHIP/TRAININGS 
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE (reverse chronological by end date)
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{INTERNSHIP / RESEARCH}
+\begin{rSection}{Research Experience}
 
-\begin{rSubsection}{Client Development Engineer Intern at Tencent (Project MAX)}{May 2026 - August 2026}{Tencent, Project MAX Team}{}              
-\item Optimized NavMesh pathfinding to improve agent movement smoothness, resolving instability on terrain bumps and convex corner edges.
-\item Implemented NPC auto-navigation and pathfinding behavior using custom FixNavMesh algorithms.
-\item Developed a GM panel for debugging and performance stats toggling in the battle UI.
-\item Built and refined game control panel UI for the 2V2 battle mode.
+\begin{rSubsection}{Research Intern, Information Retrieval Lab}{October 2024 -- July 2025}{\href{http://www.thuir.cn/}{Tsinghua University Information Retrieval Lab}}{}
+\item Surveyed recommendation-model literature and reproduced open-source models (primarily FM and DeepFM), studying their implementations.
+\item Integrated an existing sparse autoencoder (SAE) plug-in into the codebase and ran preliminary experiments under a senior student's guidance.
 \end{rSubsection}  
 
-\begin{rSubsection}{Scientific Research Intern at Multimedia and Network Big Data Lab}{July 2023 - July 2024}{\href{https://mn.cs.tsinghua.edu.cn/index/index.html}{Tsinghua University Multimedia and Network Big Data Lab}}{}
-\item Contributed to the research project ``Video Generation System Combining Large Language Models with Diffusion Models.''
-\item Studied diffusion models and personalized image generation.
-\item Assisted with the research and manuscript preparation for ``Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation.''
+\begin{rSubsection}{Research Intern, Pervasive Human-Computer Interaction Lab}{January 2025 -- May 2025}{\href{https://pi.cs.tsinghua.edu.cn/}{Tsinghua University Pervasive Human-Computer Interaction Laboratory}}{}
+\item Surveyed and presented literature on aligning human and AI thought processes; contributed to group discussions on the research direction.
+\item Implemented part of the core logic for a human--AI interactive writing assistant that supports collaborative idea generation.
+\item Co-authored ``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion'' (see Manuscripts).
 \end{rSubsection}  
 
-\begin{rSubsection}{Scientific Research Intern at Pervasive Human-Computer Interaction Lab}{January 2025 - May 2025}{\href{https://pi.cs.tsinghua.edu.cn/}{Tsinghua University Pervasive Human-Computer Interaction Laboratory}}{}
-\item Conducted research on aligning human and AI thought processes.
-\item Developed a human-AI interactive writing assistant to support collaborative idea generation.
-\item Contributed to the research and manuscript preparation for ``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion.''
+\begin{rSubsection}{Research Intern, Multimedia and Network Big Data Lab}{July 2023 -- July 2024}{\href{https://mn.cs.tsinghua.edu.cn/index/index.html}{Tsinghua University Multimedia and Network Big Data Lab}}{}
+\item For the project ``Video Generation System Combining LLMs with Diffusion Models,'' reproduced experiments from multimodal LLM papers and presented results at group meetings.
+\item Assisted senior students in debugging experimental code; studied diffusion models and personalized image generation.
+\item Co-authored ``Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation'' (see Manuscripts).
 \end{rSubsection}  
 
-\begin{rSubsection}{Scientific Research Intern at Information Retrieval Lab}{October 2024 - July 2025}{\href{http://www.thuir.cn/}{Tsinghua University Information Retrieval Lab}}{}
-\item Focused on improving traditional recommendation models (such as FM, DeepFM, AFM).
-\item Incorporated SAE plugins into these models to enhance their interpretability, controllability, and transparency.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	INDUSTRY EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Industry Experience}
+ 
+\begin{rSubsection}{Client Development Engineer Intern, Tencent (Project MAX)}{May 2026 -- August 2026}{Tencent, Project MAX Team}{}
+\item Optimized NavMesh-based character movement in battle, resolving stuttering on terrain bumps and sticking at convex corners; fixed a defect that allowed characters to leave the map during dash displacement by restricting destinations to the navigable region.
+\item Developed a Scene-view debugging tool for the fixed-point logic layer that reads movement state at runtime through reflection and visualizes target points, input direction, and trajectories, with automatic stuck detection.
+\item Developed in-battle GM tools, including performance overlays for the 2V2 mode and a buff inspector for the test scene; implemented the captain-selection hero showcase with model fallback, animation blending, and camera control; documented the NavMesh baking workflow.
+\end{rSubsection}  
+ 
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%	PROJECTS (reverse chronological)
+%-------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Projects}
+
+\begin{rSubsection}{Path Tracing Renderer \href{https://github.com/Esperarr/TinyPathTracer}{\small[Source code]}}{June 2026}{Computer Graphics Course Project}{}
+\item Developed a physically based renderer supporting Whitted-style ray tracing and Monte Carlo path tracing with Russian roulette termination.
+\item Implemented physically based materials with GGX microfacet importance sampling (isotropic and anisotropic), the Cook--Torrance BRDF, and Schlick's Fresnel approximation, covering diffuse, mirror, glass, and glossy surfaces.
+\item Added BVH acceleration for meshes with over 100k faces, next-event estimation (NEE) with multiple importance sampling (MIS, power heuristic), depth of field, MSAA, gamma correction, and OpenMP parallelization.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Five-Stage Pipeline CPU \href{https://github.com/Esperarr/thinpad-pipelined-core}{\small[Source code]}}{November 2025 -- December 2025}{Computer Organization Course Project}{}
+\item Implemented a five-stage pipelined RISC-V CPU in SystemVerilog covering 19 basic instructions plus extensions, with data forwarding, control-signal generation, and hazard handling; validated through Vivado simulation.
+\end{rSubsection}
+
+%-------------------------------------------------
+
+\begin{rSubsection}{Connect Four AI \href{https://github.com/Esperarr/Connect4_AI}{\small[Source code]}}{June 2024}{Course Project}{}
+\item Developed a Connect Four AI in Python using Monte Carlo Tree Search (MCTS) with Upper Confidence bounds applied to Trees (UCT), achieving a win rate above 90\% against baseline AI opponents.
+% TODO: specify the baseline opponents, number of games, and MCTS iteration budget.
+\end{rSubsection}
+
+%-------------------------------------------------
+
+\begin{rSubsection}{Text Sentiment Analysis Model \href{https://github.com/Esperarr/SentimentAnalysis}{\small[Source code]}}{May 2024}{Course Project}{}
+\item Implemented and compared CNN, RNN, and MLP text sentiment classifiers in PyTorch on a course-provided dataset, achieving over 90\% accuracy.
+\end{rSubsection}
+
+%-------------------------------------------------
+
+\begin{rSubsection}{Intelligent Agent-Based Game ``Generals''}{September 2023 -- May 2024}{Major Project in the 28th Tsinghua University Intelligent Agent Competition}{}
+\item Lead developer of a turn-based strategy game for the competition, available at \href{https://www.saiblo.net/game/35}{saiblo.net/game/35}.
+\item Responsible for backend logic, unit testing, debugging, SDK development, and documentation; supported participants throughout the competition.
 \end{rSubsection}  
 
 \end{rSection}
 
 %-----------------------------------------------------------------------------
- % POSITION OF RESPONSIBILITY
- %-----------------------------------------------------------------------------
+%	TEACHING AND SERVICE
+%-----------------------------------------------------------------------------
 
-\begin{rSection}{POSITIONS OF RESPONSIBILITY}
+\begin{rSection}{Teaching and Service}
 
-\begin{rSubsection}{Volunteer Teaching Assistant (Programming and Algorithms)}{September 2025 - Present}{\href{https://learning.tsinghua.edu.cn/zxgk/ywjs.htm}{Tsinghua University, Center for Student Learning and Development}}{}
-\item Provided drop-in tutoring for programming and computer science courses, including C/C++ programming, data structures, and algorithms.
-\item Assisted students with debugging, algorithm design, and understanding core programming concepts during regular tutoring sessions.
+\begin{rSubsection}{Volunteer Teaching Assistant (Programming and Algorithms)}{September 2025 -- Present}{\href{https://learning.tsinghua.edu.cn/zxgk/ywjs.htm}{Tsinghua University, Center for Student Learning and Development}}{}
+\item Provide drop-in tutoring in C/C++, data structures, and algorithms, covering debugging, algorithm design, and core concepts.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Secretary of the Intelligent Agent Department \\of the Student Science and Technology Association}{February 2023 - Present}{Tsinghua University Computer Science and Technology Department,\\ \href{https://net9.org/home/}{Student Science and Technology Association},\\ Intelligent Agent Department}{}
-\item Participated in the game development and event organization for the Intelligent Agent Competition.  
-\item Mainly responsible for the development of the Intelligent Agent-Based Game 'Generals' Project in the 28th Tsinghua University Intelligent Agent Competition.
+\begin{rSubsection}{Secretary, Intelligent Agent Department}{February 2023 -- Present}{\href{https://net9.org/home/}{Tsinghua Student Science and Technology Association}}{}
+\item Participate in game development and event organization for the Tsinghua Intelligent Agent Competition; led development of ``Generals'' for the 28th edition (see Projects).
 \end{rSubsection}  
 
 %------------------------------------------------
 
-\begin{rSubsection}{Tutor of Tsinghua University Science and Engineering Summer Camp} {July 2024 - August 2024}{Tsinghua University 2024 Science and Engineering Summer Camp, I6 Class Tutor}{}
-\item Answered professional questions, Organized engineering activities and mentored students through intelligent robot design and card-bridge construction.
+\begin{rSubsection}{Tutor, Tsinghua University Science and Engineering Summer Camp}{July 2024 -- August 2024}{2024 Science and Engineering Summer Camp, I6 Class Tutor}{}
+\item Provided technical guidance and mentored teams in intelligent robot design and cardboard-bridge construction.
 \end{rSubsection}
-
 
 \end{rSection}
 
@@ -182,69 +231,17 @@ Selected A/A+ coursework: Complex Analysis (A+), Media Computing(A+), Database S
 %	Skills
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{SKILLS}
+\begin{rSection}{Skills}
 
+% TODO: if you are not comfortable being asked about Java, JavaScript/TypeScript or Rust in an interview, remove them.
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} >{\raggedright\arraybackslash}p{0.68\textwidth} }
-Languages & Chinese (native), English (fluent), Spanish (basic)\\
-Programming & C/C++, Python, Java, JavaScript/TypeScript, Rust, Verilog/SystemVerilog\\
+Languages & Chinese (native), English (TOEFL 108), Spanish (basic)\\
+Programming & Python, C/C++, C\#, SystemVerilog, Java, JavaScript/TypeScript, Rust\\
+AI/Machine Learning & PyTorch, NumPy, fundamentals of machine learning and deep learning\\
 Graphics/Game Development & OpenGL, Unity, path tracing, rendering pipelines\\
-AI/Machine Learning & PyTorch, NumPy, machine learning and deep learning fundamentals\\
 Tools & Git, Linux, Docker, LaTeX, Markdown\\
  
 \end{tabular}   
-
-\end{rSection}
-
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-
-%-------------------------------------------------------------------------------
-%	PROJECTS
-
-\begin{rSection}{PROJECTS}
-
-\begin{rSubsection}{Intelligent Agent-Based Game ``Generals''} {September 2023 - May 2024}{Major Project in the 28th Tsinghua University Intelligent Agent Competition}{}
-
-\item A turn-based strategy game available at \href{https://www.saiblo.net/game/35}{saiblo.net/game/35}.
-\item Responsible for backend logic, unit tests, debugging, SDK development, documentation, and guiding participants through the competition.
- 
-\end{rSubsection}  
-
-%------------------------------------------------
-
-\begin{rSubsection}{Path Tracing Renderer \href{https://github.com/Esperarr/TinyPathTracer}{\small[Source code]}}{June 2026}{Computer Graphics Course Project}{}
-\item A physically-based path tracer supporting both Whitted-style ray tracing and Monte Carlo path tracing with Russian Roulette for unbiased termination.
-\item Implemented PBR materials with GGX microfacet importance sampling (isotropic and anisotropic), Cook-Torrance BRDF, and Fresnel Schlick, covering diffuse, mirror, glass, and glossy surfaces.
-\item Added BVH acceleration for 100k+ face meshes, NEE + MIS with power heuristic weighting, depth of field, MSAA anti-aliasing, gamma correction, and OpenMP parallelization.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Text Sentiment Analysis Model \href{https://github.com/Esperarr/SentimentAnalysis}{\small[Source code]}}{May 2024}{Course Project}{}
-\item A text sentiment classification model that can analyze the sentiment of the corpus based on the input text.
-\item Built CNN, RNN, and MLP sentiment classifiers in PyTorch and evaluated their performance, reaching over 90\% accuracy.
-
-\end{rSubsection}
-
-%-------------------------------------------------
-
-
-\begin{rSubsection}{Five-Stage Pipeline CPU \href{https://github.com/Esperarr/thinpad-pipelined-core}{\small[Source code]}}{November 2025 - December 2025}{Computer Organization Course Project}{}
-\item Implemented a five-stage pipeline CPU in SystemVerilog for 19 basic RISC-V instructions as well as some extensions, including data passing, forwarding, signal control, and hazard handling; validated with Vivado simulation.
-
-\end{rSubsection}
-
-%-------------------------------------------------
-
-
-\begin{rSubsection}{Connect Four AI \href{https://github.com/Esperarr/Connect4_AI}{\small[Source code]}}{June 2024}{Course Project}{}
-\item Developed a Python Connect Four AI using Monte Carlo Tree Search (MCTS) with Upper Confidence bounds for Trees (UCT), achieving over 90\% win rate against baseline AI opponents.
-
-\end{rSubsection}
-
 
 \end{rSection}
 
