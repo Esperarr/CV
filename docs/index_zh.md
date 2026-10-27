@@ -129,6 +129,15 @@
 - 基于 PyTorch 构建 CNN、RNN、MLP 文本情感分类模型并评估性能。
 - 最终模型准确率超过 90%。
 
+##### **五级流水线 RISC-V CPU**
+
+*2025 年 11 月 - 2025 年 12 月*
+计算机组成原理课程项目
+[[查看源码]](https://github.com/Esperarr/thinpad-pipelined-core)
+
+- 实现支持 19 条基础 RISC-V 指令及扩展指令的五级流水线处理器。
+- 使用 SystemVerilog 实现数据前递、控制与冒险处理，并通过 Vivado 仿真验证。
+
 ##### **Android 新闻应用**
 
 *2023 年 9 月*

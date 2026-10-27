@@ -149,6 +149,15 @@ Minor Project as part of curriculum
 - Developed a **text sentiment classification model** to analyze the sentiment of input text.  
 - Wrote Python code using **PyTorch** to construct models with **CNN**, **RNN**, and **MLP**, testing model performance. The final model achieved an accuracy rate of over **90%**.
 
+##### **Five-Stage RISC-V CPU**
+
+*November 2025 - December 2025*  
+Computer Organization Course Project  
+[[View Source Code]](https://github.com/Esperarr/thinpad-pipelined-core)
+
+- Implemented a five-stage RISC-V processor supporting 19 base instructions and a set of extended instructions.
+- Built data forwarding, control, and hazard-handling logic in SystemVerilog; validated processor behavior with Vivado simulation.
+
 ##### **Android news App**
 
 *September 2023*
