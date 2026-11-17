@@ -101,8 +101,6 @@
 {September 2022 -- Expected 2027}\\
 \href{https://www.xyc.tsinghua.edu.cn/index.htm}{Xinya College} \& \href{https://www.cs.tsinghua.edu.cn/}{Department of Computer Science and Technology}
 \\
-GPA: 3.6/4.0 % TODO: if you have a major GPA, last-two-years GPA, or rank (e.g. top X\%), add it here
-\\
 Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Special Topic Training (A+), Introduction to Artificial Intelligence, Introduction to Machine Learning, Fundamentals of Computer Graphics. % TODO: add grades for the other courses, or keep as is
 
 \end{rSection} 
@@ -131,21 +129,21 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 \begin{rSection}{Research Experience}
 
 \begin{rSubsection}{Research Intern, Information Retrieval Lab}{October 2024 -- July 2025}{\href{http://www.thuir.cn/}{Tsinghua University Information Retrieval Lab}}{}
-\item Surveyed recommendation-model literature and reproduced open-source models (primarily FM and DeepFM), studying their implementations.
-\item Integrated an existing sparse autoencoder (SAE) plug-in into the codebase and ran preliminary experiments under a senior student's guidance.
-\end{rSubsection}  
+\item Surveyed recommendation-model literature and reproduced open-source FM and DeepFM baselines.
+\item Integrated sparse autoencoder (SAE) modules into recommendation models and ran interpretability experiments.
+\end{rSubsection}
 
 \begin{rSubsection}{Research Intern, Pervasive Human-Computer Interaction Lab}{January 2025 -- May 2025}{\href{https://pi.cs.tsinghua.edu.cn/}{Tsinghua University Pervasive Human-Computer Interaction Laboratory}}{}
-\item Surveyed and presented literature on aligning human and AI thought processes; contributed to group discussions on the research direction.
-\item Implemented part of the core logic in the codebase of a human--AI interactive writing assistant supporting collaborative idea generation.
+\item Surveyed and presented literature on aligning human and AI thought processes, informing the research direction.
+\item Designed and implemented core modules of a human--AI interactive writing assistant for collaborative ideation.
 \item Co-authored ``Towards Mutually Illuminative Collaborative Human--AI Deliberate Discussion'' (see Manuscripts).
-\end{rSubsection}  
+\end{rSubsection}
 
 \begin{rSubsection}{Research Intern, Multimedia and Network Big Data Lab}{July 2023 -- July 2024}{\href{https://mn.cs.tsinghua.edu.cn/index/index.html}{Tsinghua University Multimedia and Network Big Data Lab}}{}
-\item For the project ``Video Generation System Combining LLMs with Diffusion Models,'' reproduced experiments from multimodal LLM papers and presented results at group meetings.
-\item Assisted senior students in debugging experimental code; studied diffusion models and personalized image generation.
+\item Led the reproduction of multimodal-LLM experiments for a video-generation project combining LLMs with diffusion models; reported results at group meetings.
+\item Debugged experimental code for diffusion-based personalized image generation.
 \item Co-authored ``Curriculum Multi-Reward Reinforcement Learning for Customized Text-to-Image Generation'' (see Manuscripts).
-\end{rSubsection}  
+\end{rSubsection}
 
 \end{rSection}
 
@@ -177,6 +175,13 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 
 %------------------------------------------------
 
+\begin{rSubsection}{Image Completion with GraphCut and Poisson Blending \href{https://github.com/Esperarr/image-completion}{\small[Source code]}}{January 2026}{Course Project}{}
+\item Developed a Python-based image completion pipeline with Jittor-accelerated sliding-window patch matching, graph-cut seam optimization, and Poisson blending.
+\item Implemented a Ford--Fulkerson max-flow solver from scratch for graph-cut optimization and an SOR-based Poisson solver with quadtree acceleration, substantially improving blending efficiency with some quality trade-offs in large masked regions.
+\end{rSubsection}
+
+%------------------------------------------------
+
 \begin{rSubsection}{Five-Stage Pipeline CPU \href{https://github.com/Esperarr/thinpad-pipelined-core}{\small[Source code]}}{November 2025 -- December 2025}{Computer Organization Course Project}{}
 \item Implemented a five-stage pipelined RISC-V CPU in SystemVerilog covering 19 basic instructions plus extensions, with data forwarding, control-signal generation, and hazard handling; validated through Vivado simulation.
 \end{rSubsection}
@@ -197,8 +202,8 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 %-------------------------------------------------
 
 \begin{rSubsection}{Intelligent Agent-Based Game ``Generals'' \href{https://gitee.com/xiaoaojianghu425/generals_impact_logic}{\small[Source code]}}{September 2023 -- May 2024}{Major Project in the 28th Tsinghua University Intelligent Agent Competition}{}
-\item Lead developer of a turn-based strategy game for the competition, available at \href{https://www.saiblo.net/game/35}{saiblo.net/game/35}.
-\item Responsible for backend logic, unit testing, debugging, SDK(\href{https://gitee.com/xiaoaojianghu425/generals_-impact_-sdk_-cpp}{\small{C++ SDK}},\href{https://gitee.com/xiaoaojianghu425/generals_-impact_-sdk_-python}{\small{Python SDK}}) development, and documentation; supported participants throughout the competition.
+\item Led development of the competition's turn-based strategy game, hosted at \href{https://www.saiblo.net/game/35}{saiblo.net/game/35}.
+\item Implemented the backend game logic with unit tests, built \href{https://gitee.com/xiaoaojianghu425/generals_-impact_-sdk_-cpp}{C++} and \href{https://gitee.com/xiaoaojianghu425/generals_-impact_-sdk_-python}{Python} SDKs with documentation, and provided technical support to participants throughout the competition.
 \end{rSubsection}  
 
 \end{rSection}
@@ -216,7 +221,7 @@ Selected coursework: Complex Analysis (A+), Media Computing (A+), Database Speci
 %------------------------------------------------
 
 \begin{rSubsection}{Secretary, Intelligent Agent Department}{February 2023 -- Present}{\href{https://net9.org/home/}{Tsinghua Student Science and Technology Association}}{}
-\item Participate in game development and event organization for the Tsinghua Intelligent Agent Competition; led development of ``Generals'' for the 28th edition (see Projects).
+\item Develop games and organize events for the Tsinghua Intelligent Agent Competition; led development of ``Generals'' for the 28th edition (see Projects).
 \end{rSubsection}  
 
 %------------------------------------------------
