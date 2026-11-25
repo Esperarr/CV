@@ -45,7 +45,7 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ##### **Scientific Research Internship at Multimedia and Network Big Data Lab** 
 
-📅 *July 2023 - July 2024*  
+📅 *February 2024 - June 2024*  
 [📍 Tsinghua University Multimedia and Network Big Data Lab](https://mn.cs.tsinghua.edu.cn/index/index.html)  
 
 - Participated in the research project *"Video Generation System Combining Large Language Models with Diffusion Models."*  
@@ -55,7 +55,7 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ##### **Scientific Research Internship at Pervasive Human-Computer Interaction Lab**  
 
-📅 *January 2025 - May 2025*
+📅 *January 2025 - April 2025*
 [📍 Tsinghua University Pervasive Human-Computer Interaction Lab](https://pi.cs.tsinghua.edu.cn/)  
 
   - Conducted research on **aligning human and AI thought processes** during collaborative deliberation.
@@ -65,7 +65,7 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ##### **Scientific Research Internship at Information Retrieval Lab** 
 
-📅 *October 2024 - July 2025*
+📅 *March 2025 - June 2025*
 [📍 Tsinghua University Information Retrieval Lab](http://www.thuir.cn/)  
 
   - Focused on improving traditional recommendation models (such as FM, DeepFM, AFM).  
