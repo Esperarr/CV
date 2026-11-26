@@ -33,10 +33,10 @@ Department of Computer Science and Technology, Tsinghua University: [Department 
 
 ## **▪️Internship & Research Experience**
 
-##### **Client Development Engineer Intern at Tencent (Project MAX)**
+##### **Client Development Engineer Intern at Tencent**
 
 📅 *May 2026 - August 2026*  
-📍 Tencent, Project MAX Team
+📍 Tencent LightSpeed Studios (IEG)
 
 - Optimized NavMesh pathfinding to improve agent movement smoothness, resolving instability on terrain bumps and convex corner edges.
 - Implemented NPC auto-navigation and pathfinding behavior using custom FixNavMesh algorithms.
